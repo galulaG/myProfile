@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- MENGAMBIL BOOTSTRAP http://getbootstrap.com/docs/3.3/getting-started/ cari BOOTSTRAP CDN ambil  -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+    crossorigin="anonymous">
+
+    <style>
+        .header{
+            display:block;
+            width: 100%;
+            text-align: center;
+            background-image: url("img/clearwater.jpg");
+            background-size: cover;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        .container{
+            padding-right: 80px;
+            padding-left: 80px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .profile-image{
+            margin: auto;
+            margin-bottom: 10px;
+            max-height: 150px;
+        }
+
+        .head-name{
+            font-size: 2em;
+            font-weight: bold;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .head-occupation{
+            font-size: 1em;
+            color: white;
+        }
+
+        .navbar-inverse{
+            background-color: #e9edf1;
+        }
+
+        .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+            background-color: #e9edf1;
+        }
+        
+        .navbar-inverse .navbar-toggle {
+            border-color: #e9edf1;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .title{
+            color: #126fcc;
+            font-size: 1.6em;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .about-info {
+            color: #126fcc;
+            text-align: left;
+            border-bottom: dashed 1px;
+            border-bottom-color: #126fcc;
+            padding: 10px 10px 10px 10px;
+        }
+
+        #myeducation {
+            color: #126fcc;
+            background-color: #cecece;
+            min-height: 50px;
+        }
+
+        #myskill{
+            color: #126fcc;
+            display:block;
+            width: 50%;
+            text-align: center;
+            background-image: url("img/water2.jpg");
+            background-size: cover;
+            padding-bottom: 118px;  
+        }
+
+        .myskill-container{
+            padding-top: 60px;
+        }
+
+        
+
+    </style>
+
+</head>
+
+
+
+<body>
+    <!-- HEADER -->
+    <header class= "header">
+        <div class= "container-head">
+            <img src="img/dolphin1.jpg" class="profile-image img-responsive" alt="">
+            <div class= "head-name"> GALULA </div>
+            <div class= "head-occupation"> SWIMMER </div>
+        </div>
+    </header>  
+    
+    <!-- NAVIGATION -->
+    
+    <nav class="navbar navbar-inverse" role="navigation" style="border-radius: 0; border:none">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <a class="navbar-brand" href="#">GALULA</a> -->
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#about" style="color:#126fcc;">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#myskill" style="color:#126fcc;">MY EDUCATION</a>
+                    </li>
+                    <li>
+                        <a href="#myeducation" style="color:#126fcc;">MY SKILL</a>
+                    </li>
+                    <li>
+                        <a href="#contact" style="color:#126fcc;">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- ABOUT -->
+    <div class="container section" id="about">
+        <div class="title">ABOUT ME</div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about-img container">
+                    <img src="img/dolphin1.jpg" alt="" width="40%" class="img-responsive about-img">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="about-info">
+                    <h4>Professional Diver</h4>
+                    <p class="text-muted"> Swim swim swimmmm all the time in the water</p>
+                </div>
+                <div class="about-info">    
+                    <h4>Rescuer</h4>
+                    <p class="text-muted"> Swim swim swimmmm all the time in the water</p>
+                </div>
+                <div class="about-info">    
+                    <h4>Triathlon Swimmer</h4>
+                    <p class="text-muted"> Swim swim swimmmm all the time in the water</p>
+                </div>
+                <div class="about-info">    
+                    <h4>Chill Swimmer</h4>
+                    <p class="text-muted"> Swim swim swimmmm all the time in the water</p>
+                </div>
+            </div>
+        </div>
+    
+
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="container-fluid">
+        <div class="row row-eq-height">     
+            <!-- My Education -->
+            <div class="col-md-6 section" id="myeducation">
+                <div class="title">MY EDUCATION</div>
+                <div class="myeducation-container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <b> 2007-2005</b>
+                            <p><i> Blalalaa lala lala </i></p>    
+                        </div>
+                        <div class="col-sm-8">
+                            <h5><b>Indian Ocean</b></h5>
+                            <p>Morning Swim, afternoon swim, night swim, weekly swin,
+                            monthly swin, yearly swim, chill out swim</p>
+                        </div>
+                    </div>
+                    <hr class="myeducation-underline">
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <b> 2005-2002</b>
+                            <p><i> Blalalaa lala lala </i></p>    
+                        </div>
+                        <div class="col-sm-8">
+                            <h5><b>Pacific Ocean</b></h5>
+                            <p>Ocean meeting, swimming and water sport </p>
+                        </div>
+                    </div>
+                    <hr class="myeducation-underline">
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <b> 2002-1999</b>
+                            <p><i> Blalalaa lala lala </i></p>    
+                        </div>
+                        <div class="col-sm-8">
+                            <h5><b>Atlantic Ocean</b></h5>
+                            <p>Synchronize swiming, jumping like a pro dolphin</p>
+                        </div>
+                    </div>
+                    <hr class="myeducation-underline">
+                </div>
+            </div>
+            <!-- My Skill -->
+            <div class="col-md-6 section" id="myskill">
+                <div class="title">MY SKILLS</div>
+                <div class="myskill-container">
+                    <div class="myskill-progress">DIVE</div>
+                    <div class="progress" style="border-radius: 0">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="47" aria-valuemin="0" aria-valuemax="100" style="width: 47%;">
+                            <span class="sr-only">47% Complete</span>
+                        </div>
+                    </div>
+                    <div class="myskill-progress">SYNCHRONIZED</div>
+                    <div class="progress" style="border-radius: 0">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%;">
+                            <span class="sr-only">78% Complete</span>
+                        </div>
+                    </div>
+                    <div class="myskill-progress">ALL DAY SWIM</div>
+                    <div class="progress" style="border-radius: 0">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%;">
+                            <span class="sr-only">98% Complete</span>
+                        </div>
+                    </div>
+                </div>       
+            </div>  
+        </div>
+    </div>
+
+
+ <!-- Contact -->
+ <div class="section" id="contact">
+        <div class="title">CONTACT</div>
+        <div class="container">
+            <form>
+                <div class="col-md-6 form-line">
+                      <div class="form-group">
+                        <input type="text" class="form-control contact-input" placeholder=" Enter Name">
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control contact-input" placeholder=" Enter Email id">
+                      </div>	
+                      <div class="form-group">
+                        <input type="tel" class="form-control contact-input" id="telephone" placeholder=" Enter Phone No.">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                           <textarea  class="form-control contact-input" placeholder="Enter Your Message"></textarea>
+                      </div>
+                      <div>
+                          <button type="button" class="btn btn-default contact-button">Send Message</button>
+                      </div>
+                      
+                </div>
+            </form>
+        </div>
+    </div>
+
+<!-- Footer -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright &copy; Your Website 2017</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+<!-- jQuery Core 3.2.1 - minified -->
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+    
+
+<!-- Bootstrap Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
